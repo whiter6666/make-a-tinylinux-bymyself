@@ -15,5 +15,5 @@ message:
 times 510-($-$$) db 0
 dw 0xaa55
 
-%nasm boot.asm -o boot.bin
-%qemu-system-i386 boot.bin
+;nasm boot.asm -o boot.bin
+;qemu-system-i386 boot.bin
